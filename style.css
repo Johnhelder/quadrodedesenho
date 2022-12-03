@@ -37,3 +37,7 @@ h1 {
   height: 40px;
   cursor: pointer;
 }
+
+.color.active {
+  border: 5px solid #FFF;
+}
