@@ -26,3 +26,8 @@ h1 {
   background-color: #FFF;
   cursor: crosshair;
 }
+
+.colorArea {
+  width: 800px;
+  display: flex;
+}
