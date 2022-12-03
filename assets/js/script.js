@@ -6,6 +6,9 @@ document.querySelector('.colorArea .color').forEach(item => {
 
  function colorClickEvent(e){
     let color = e.target.getAttibute('data-color');
+    currentColor = color;
 
-    console.log('cor clicada', color);
+    document.querySelector('.color.active').classList.remove('active');
+    e.target.classList.add('active');
+ 
  }
