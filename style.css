@@ -31,3 +31,9 @@ h1 {
   width: 800px;
   display: flex;
 }
+
+.color {
+  flex: 1;
+  height: 40px;
+  cursor: pointer;
+}
