@@ -1,5 +1,6 @@
 //Initial Data
 let currentColor = 'black';
+let canDraw = false;
 
 let screen = document.querySelector('#tela');
 let ctx = screen.getContext('2d');
@@ -23,7 +24,7 @@ screen.addEventListener('mouseUp', mouseUpEvent);
  }
 
  function mouseDownEvent(){
-
+    canDraw = true;
  }
 
  function mouseMoveEvent(){
@@ -31,5 +32,5 @@ screen.addEventListener('mouseUp', mouseUpEvent);
  }
 
  function mouseUpEvent(){
-    
+    canDraw = false;
  }
