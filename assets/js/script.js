@@ -27,5 +27,9 @@ screen.addEventListener('mouseUp', mouseUpEvent);
  }
 
  function mouseMoveEvent(){
+
+ }
+
+ function mouseUpEvent(){
     
  }
