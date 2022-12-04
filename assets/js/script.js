@@ -8,6 +8,9 @@ let ctx = screen.getContext('2d');
 document.querySelectorAll('.colorArea .color').forEach(item => {
     item.addEventListener('click', colorClickEvent);
 });
+screen.addEventListener('mousedown', mouseDownEvent);
+screen.addEventListener('mousemove', mouseMoveEvent);
+screen.addEventListener('mouseUp', mouseUpEvent);
 
 //Functions
  function colorClickEvent(e){
