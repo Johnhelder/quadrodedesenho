@@ -1,6 +1,8 @@
 //Initial Data
 let currentColor = 'black';
 let canDraw = false;
+let mouseX = 0;
+let mouseY = 0;
 
 let screen = document.querySelector('#tela');
 let ctx = screen.getContext('2d');
