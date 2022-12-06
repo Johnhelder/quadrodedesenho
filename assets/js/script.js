@@ -54,5 +54,6 @@ screen.addEventListener('mouseUp', mouseUpEvent);
    ctx.strokeStyle = currentColor;
    ctx.stroke();
 
-   
+   mouseX = pointX;
+   mousey = pointY;
  }
