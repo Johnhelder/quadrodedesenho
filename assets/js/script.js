@@ -44,4 +44,15 @@ screen.addEventListener('mouseUp', mouseUpEvent);
  function draw(x, y){
    let pointX = x - screen.offsetLeft;
    let pointY = y - screen.offsetTop;
+
+   ctx.beginPath();
+   ctx.lineWidth = 5;
+   ctx.lineJoin = "round";
+   ctx.moveTo(mouseX, mouseY);
+   ctx.lineTo(pointX, pointY);
+   ctx.closePath();
+   ctx.strokeStyle = currentColor;
+   ctx.stroke();
+
+   
  }
