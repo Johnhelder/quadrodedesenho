@@ -56,5 +56,10 @@ document.querySelector('.clear').addEventListener('click', clearScreen);
    ctx.stroke();
 
    mouseX = pointX;
-   mousey = pointY;
+   mouseY = pointY;
+ }
+
+ function clearScreen(){
+   ctx.setTransform(1, 0, 0, 1, 0, 0);
+   ctx.clearReat(0, 0, ctx.canvas.width, ctx.canvas.height);
  }
