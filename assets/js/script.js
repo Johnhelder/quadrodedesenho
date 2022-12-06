@@ -25,16 +25,22 @@ screen.addEventListener('mouseUp', mouseUpEvent);
     
  }
 
- function mouseDownEvent(){
+ function mouseDownEvent(e){
     canDraw = true;
     mouseX = e.pageX - screen.offsetLeft;
     mouseY = e.pageY - screen.offsetTop;
  }
 
- function mouseMoveEvent(){
-
+ function mouseMoveEvent(e){
+   if(canDraw){
+      draw(e.pageX, e.pageY);
+   }
  }
 
- function mouseUpEvent(){
+ function mouseUpEvent(e){
     canDraw = false;
+ }
+
+ function draw(x, y){
+   
  }
