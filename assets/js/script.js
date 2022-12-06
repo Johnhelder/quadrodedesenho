@@ -42,5 +42,6 @@ screen.addEventListener('mouseUp', mouseUpEvent);
  }
 
  function draw(x, y){
-   
+   let pointX = x - screen.offsetLeft;
+   let pointY = y - screen.offsetTop;
  }
