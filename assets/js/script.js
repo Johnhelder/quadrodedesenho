@@ -27,6 +27,8 @@ screen.addEventListener('mouseUp', mouseUpEvent);
 
  function mouseDownEvent(){
     canDraw = true;
+    mouseX = e.pageX - screen.offsetLeft;
+    mouseY = e.pageY - screen.offsetTop;
  }
 
  function mouseMoveEvent(){
