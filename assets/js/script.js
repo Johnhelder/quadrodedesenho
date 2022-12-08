@@ -61,5 +61,5 @@ document.querySelector('.clear').addEventListener('click', clearScreen);
 
  function clearScreen(){
    ctx.setTransform(1, 0, 0, 1, 0, 0);
-   ctx.clearReat(0, 0, ctx.canvas.width, ctx.canvas.height);
+   ctx.clearRect(0, 0, ctx.canvas.width, ctx.canvas.height);
  }
