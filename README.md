@@ -12,8 +12,8 @@ projeto quadro de desenho feito com HTML, CSS e JavaScript
 <h3>Objetivo do projeto</h3>
 
 <p>Objetivo de criar o projeto quadro de desenho é continuar praticando e melhorando conhecimentos nas tecnologias que estou 
-focado HTML, CSS e JavaScript, as principais funcionalidades do sistema são desenhar no quadro quelquer coisa que a pessoa possa imaginar
-pra isso basta selecionar uma cor, por apdrão já vem com a cor preta selecionada e para começar a desenhar é necessário pressionar o botão esquerdo do mouse e movimentar mouse, se precisar apagar o desenho do quadro só clicar no botão limpar quadro</p><br>
+focado HTML, CSS e JavaScript, as principais funcionalidades do sistema são desenhar no quadro qualquer coisa que a pessoa possa imaginar
+pra isso basta selecionar uma cor, por padrão já vem com a cor preta selecionada e para começar a desenhar é necessário pressionar o botão esquerdo do mouse e movimentar mouse, se precisar apagar o desenho do quadro só clicar no botão limpar quadro</p><br>
 
 <h3>Aprendizados</h3>
 
